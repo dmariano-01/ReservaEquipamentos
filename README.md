@@ -3,12 +3,19 @@ Este é um sistema simples para gerenciar reservas de equipamentos por professor
 
 📋 Funcionalidades
 Cadastro de reservas com:
+
 Nome do professor.
+
 Nome do equipamento.
+
 Data da reserva.
+
 Aula específica para a reserva.
+
 Exibição de reservas em uma tabela.
+
 Exclusão de reservas.
+
 Armazenamento local das reservas (Local Storage).
 
 🚀 Como usar
