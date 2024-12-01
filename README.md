@@ -39,19 +39,31 @@ A reserva será exibida na tabela abaixo.
 Para excluir uma reserva, clique no botão Excluir na respectiva linha.
 
 🛠 Tecnologias utilizadas
+
 HTML: Estruturação da página.
+
 CSS: Estilização da interface.
+
 Bootstrap: Layout responsivo e componentes prontos.
+
 JavaScript: Lógica do sistema.
+
 jQuery: Facilitar a manipulação do DOM e eventos.
+
 Local Storage: Persistência dos dados localmente no navegador.
 
 🎨 Personalização
+
 Estilo: Você pode modificar o arquivo css/style.css para alterar a aparência da página.
+
 Tabela: Adicione ou remova colunas conforme necessário no HTML e no JavaScript.
 
 📂 Melhorias futuras
+
 Validação de conflitos de reservas (mesmo equipamento, data e aula).
+
 Filtro para buscas na tabela de reservas.
+
 Integração com um banco de dados remoto para maior segurança.
+
 Criação de relatórios exportáveis (CSV ou PDF).
