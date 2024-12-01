@@ -39,7 +39,6 @@ $('#formulario-reserva').submit(function(e) {
 });
 
 function adicionarReserva(reserva) {
-    // Converter a data para o formato dd/mm/aa
     var dataFormatada = formatarData(reserva.data);
 
     var linha = `<tr>
@@ -64,8 +63,8 @@ function carregarReservas() {
 }
 
 function formatarData(data) {
-    var partes = data.split('-'); // Divide o formato ISO (aaaa-mm-dd)
-    return `${partes[2]}/${partes[1]}/${partes[0].slice(2)}`; // Reorganiza para dd/mm/aa
+    var partes = data.split('-');
+    return `${partes[2]}/${partes[1]}/${partes[0].slice(2)}`;
 }
 
 $(document).on('click', '.excluir', function() {
@@ -100,5 +99,5 @@ $(document).on('click', '.excluir', function() {
 
 function formatarDataISO(data) {
     var partes = data.split('/');
-    return `20${partes[2]}-${partes[1]}-${partes[0]}`; // Reorganiza para aaaa-mm-dd
+    return `20${partes[2]}-${partes[1]}-${partes[0]}`;
 }
