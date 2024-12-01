@@ -1,4 +1,4 @@
-Reserva de Equipamentos para Professores
+
 Este é um sistema simples para gerenciar reservas de equipamentos por professores. Ele permite criar, listar e excluir reservas, utilizando HTML, CSS, JavaScript e o Local Storage do navegador.
 
 📋 Funcionalidades
