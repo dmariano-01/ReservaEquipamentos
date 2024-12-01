@@ -1,16 +1,41 @@
-body {
-    background-color: #f8f9fa;
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    margin-top: 30px;
-}
-
-.table th, .table td {
-    text-align: center;
-}
-
+/* Estilo das mensagens de erro e sucesso */
 .alert {
-    margin-top: 20px;
+    display: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: auto;
+    max-width: 600px; /* Limita o tamanho da mensagem */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Centraliza o texto */
+    position: fixed; /* Posiciona a mensagem fixada */
+    bottom: 20px; /* Distância do fundo da página */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta para garantir centralização perfeita */
+}
+
+/* Mensagem de sucesso (verde claro) */
+.alert-success {
+    background-color: #d4edda; /* Fundo bem claro */
+    color: #66b366; /* Texto um pouco mais claro que o anterior */
+    border: 1px solid #c3e6cb; /* Borda suave */
+}
+
+/* Mensagem de erro (vermelho claro) */
+.alert-danger {
+    background-color: #f8d7da; /* Fundo bem claro */
+    color: #9a2e2e; /* Texto um pouco mais claro que o anterior */
+    border: 1px solid #f5c6cb; /* Borda suave */
+}
+/* Centraliza o texto de todas as células da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaçamento entre as células */
+}
+
+th, td {
+    text-align: center; /* Centraliza o texto */
+    padding: 8px; /* Adiciona espaçamento interno nas células */
+    border: 1px solid #ddd; /* Borda leve para a tabela */
 }
