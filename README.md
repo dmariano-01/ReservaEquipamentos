@@ -26,7 +26,9 @@ Abra o arquivo index.html no navegador.
 
 3. Como funciona
 Preencha todos os campos do formulário e clique em Reservar.
+
 A reserva será exibida na tabela abaixo.
+
 Para excluir uma reserva, clique no botão Excluir na respectiva linha.
 
 🛠 Tecnologias utilizadas
