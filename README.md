@@ -1,7 +1,7 @@
 <div align="center"
 img src="(https://github.com/user-attachments/assets/15d6fc23-0d1e-408a-bb00-87fcd1c41709)" width="50px" />
 </div>
-![literalmente eu.gif](https://github.com/user-attachments/assets/15d6fc23-0d1e-408a-bb00-87fcd1c41709)
+
 
 Este é um sistema simples para gerenciar reservas de equipamentos por professores. Ele permite criar, listar e excluir reservas, utilizando HTML, CSS, JavaScript e o Local Storage do navegador.
 
