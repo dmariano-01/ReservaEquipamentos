@@ -1,4 +1,4 @@
-![imagem muito massa de persona 3]((https://media1.tenor.com/m/cIb2L2LS2NIAAAAC/makoto-yuki.gif)
+
 
 Este é um sistema simples para gerenciar reservas de equipamentos por professores. Ele permite criar, listar e excluir reservas, utilizando HTML, CSS, JavaScript e o Local Storage do navegador.
 
