@@ -27,7 +27,7 @@ Conexão com a internet para carregar os recursos do Bootstrap.
 Faça o download ou clone este repositório:
 
 bash
-git clone https://github.com/seu-usuario/reserva-equipamentos.git
+git clone https://github.com/dmariano-01/reserva-equipamentos.git
 
 Abra o arquivo index.html no navegador.
 
